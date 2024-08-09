@@ -1,0 +1,262 @@
+Color Theme Swatches in Hex 
+.Knights-in-heavy-armor-marching-through-a-gloomy-forest-1-hex { color: #591E29; }
+.Knights-in-heavy-armor-marching-through-a-gloomy-forest-2-hex { color: #475957; }
+.Knights-in-heavy-armor-marching-through-a-gloomy-forest-3-hex { color: #94A6A2; }
+.Knights-in-heavy-armor-marching-through-a-gloomy-forest-4-hex { color: #748C84; }
+.Knights-in-heavy-armor-marching-through-a-gloomy-forest-5-hex { color: #0D0D0D; }*/
+
+
+html{
+    box-sizing: border-box;
+
+}
+/*CABEÇALHO*/
+.menu{
+  position: absolute; 
+  top: 2%;
+  margin-left: 5%;
+      
+}
+
+.menu li{
+ list-style-type: none;
+ display: inline;
+ padding: 100px;  
+  
+}
+.banner{
+ background-image: url(imagens/russell-crowe-gladiator-2-maximus.avif);
+ background-repeat:no-repeat; 
+ height: 250px; 
+ background-size: 1370px 300px;
+ position: relative; 
+    
+}         
+
+header a{
+color: #fff;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-decoration: none;
+font-size: 1.6em;
+}
+
+header a:hover{
+ color: goldenrod;
+ transition: background .6s;
+ text-decoration: none;
+}
+
+/*Destaques */
+.h1{
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ background-color: black;
+ color: goldenrod;
+ text-align: center;
+ font-size: 30px;
+ border: 2px solid goldenrod;
+ margin-top: 0.5%;
+   
+}
+/*bootstrap*/
+.img1{
+ height: 350px;
+ width: 300px;
+ margin-left: 22%;
+ margin-top: 1%;
+ 
+}
+.carousel-inner{
+ height: 380px;   
+ background-color:rgb(175, 145, 68) ;
+    
+}
+.p1{
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 20px;
+ text-align: justify;
+ color: black;
+ margin-left: 50%;
+}
+.p2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    margin-left: 50%;
+    margin-bottom: 8%;
+}
+.p3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;
+    margin-left: 50%;
+    margin-bottom: 6%;
+}
+/*Seção BIOGRAFIA*/
+.h11{
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ background-color: black;
+ color: goldenrod;
+ text-align: left;
+ font-size: 30px;
+ border-top: 8px solid white;
+ border-bottom: 8px solid white;
+ padding-right: 10%;
+}
+.bio{
+ height: 420px;
+ width: 300px;
+ margin-bottom: 1%;
+ padding-left: 2%;
+ margin-left: 70%;
+ padding-top: 1%;
+ 
+   
+}
+.descrition{
+ position: absolute;
+ top: 725px;
+ font-size: 19px;
+ margin-left: 2%;
+ margin-right: 70%;
+ padding-top: 2%;
+ text-align: justify;
+}
+.descrition2{
+    position: absolute;
+    top: 725px;
+    font-size: 19px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 2%;
+    text-align: justify;
+   }
+
+/*Seção de Filmografia*/
+.h12{
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ background-color: black;
+ color: goldenrod;
+ text-align: center;
+ font-size: 30px;
+ border-top: 0 solid white;
+ border-bottom: 8px solid white;
+ margin-top: 3%;
+}
+
+.cardfilm1{
+ display: flex;
+ padding-bottom: 1%;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ padding-top: 1%;
+ transition: all 1s linear;
+ background-color: rgb(175, 145, 68);
+ border-bottom: solid 3px goldenrod;
+ margin-bottom: 1%;
+ 
+       
+}
+.cardfilm2{
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ padding-bottom: 1%;
+ padding-top: 1%;
+ border-top: solid 3px goldenrod;
+ margin-top: 1%;
+  
+ background-color: rgb(175, 145, 68);
+ 
+}
+
+.span{
+    color: red;
+    text-align: center;
+    font-style: bold;
+    background-color: black;
+}
+.span a{
+ color: red;
+}
+.span a:hover{
+ color:goldenrod;
+ text-decoration: none;
+}
+.img{
+ transition: all 0.5s linear;
+}
+
+.cardfilm1 img:hover{
+ scale: 1.03;
+ border-radius: 8px;
+ transition: background 0.8s ease, color 0.8s ease;
+ border: 3px solid red;
+}
+.cardfilm2 img:hover{
+scale: 1.03;
+border-radius: 8px;
+transition: background 0.8s ease, color 0.8s ease;
+border: 3px solid red;
+}
+
+
+/*Rodapé*/
+.h13{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: black;
+color: goldenrod;
+text-align: left;
+font-size: 30px;
+border-top: 0 solid white;
+border-bottom: 8px solid white;
+margin-top: 1%;
+}
+
+.premios{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: goldenrod;
+text-align: center;
+font-size: 30px;
+background-image: url(imagens/PREMIOS.jpg);
+background-repeat:no-repeat; 
+border: solid 2px black;
+background-size: 1320px 350px;  
+padding-top: 3%;
+
+}
+
+.menu1{
+    margin-top: 25%;
+    list-style-type: none;
+    
+
+}
+.link{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 1px;
+    margin-left: 85%;
+}
+
+.copyright{
+font-size: small;  
+text-align: center;
+padding-top: 5%;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+.navegacao ul {
+    flex-direction: column;
+}
+
+.navegacao li {
+    margin: 5px 0;
+}
+
+section {
+    margin: 60px 10px 20px 10px; /* Ajuste para a barra de navegação fixa */
+}
+}
